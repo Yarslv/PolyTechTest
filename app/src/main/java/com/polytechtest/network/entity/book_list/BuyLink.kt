@@ -1,4 +1,4 @@
-package com.polytechtest.network.book_list
+package com.polytechtest.network.entity.catogiries.book_list
 
 data class BuyLink(
     val name: String,

@@ -1,4 +1,4 @@
-package com.polytechtest.network.book_list
+package com.polytechtest.network.entity.catogiries.book_list
 
 data class Book(
     val age_group: String,

@@ -4,7 +4,7 @@ import com.polytechtest.arch.Mapper
 import com.polytechtest.domain.entity.BookListHolder
 import com.polytechtest.domain.entity.BookListModel
 import com.polytechtest.domain.entity.BookModel
-import com.polytechtest.network.book_list.BookListAnswer
+import com.polytechtest.network.entity.catogiries.book_list.BookListAnswer
 
 class BookListMapper : Mapper<BookListAnswer, BookListModel> {
     override fun toDomain(model: BookListAnswer): BookListModel {

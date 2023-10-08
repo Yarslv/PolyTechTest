@@ -2,10 +2,10 @@ package com.polytechtest.data.mapper
 
 import com.polytechtest.arch.Mapper
 import com.polytechtest.domain.entity.CategoryModel
-import com.polytechtest.network.entity.catogiries.AnswerData
+import com.polytechtest.network.entity.catogiries.CategoriesAnswer
 
-class CategoriesMapper : Mapper<AnswerData, List<CategoryModel>> {
-    override fun toDomain(model: AnswerData): List<CategoryModel> {
+class CategoriesMapper : Mapper<CategoriesAnswer, List<CategoryModel>> {
+    override fun toDomain(model: CategoriesAnswer): List<CategoryModel> {
         val resultList = model.results
         val list = resultList.map {
             CategoryModel(
