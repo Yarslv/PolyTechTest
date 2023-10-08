@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nothing_to_show">Немає інформації\nПотягніть для оновлення</string>
+    <string name="categories">Категорії</string>
+    <string name="published_format">Опубліковано: %1$s</string>
+    <string name="publisher_format">Видавництво: %1$s</string>
+    <string name="author_format">Автор: %1$s</string>
+    <string name="rank_format">Рейтинг: %1$s</string>
+    <string name="buy">Купити</string>
+    <string name="back">Назад</string>
+    <string name="close">Закрити</string>
+    <string name="no_connection_message">Відсутнє підключення або щось ще</string>
+    <string name="no_cached_data_message">Відсутній кеш або щось ще</string>
+    <string name="something_went_wrong">Щось пішло не так</string>
+</resources>

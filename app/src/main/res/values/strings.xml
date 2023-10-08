@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Poly Tech Test</string>
+    <string name="nothing_to_show">Nothing to show\nPull to refresh</string>
+    <string name="categories">Categories</string>
+    <string name="published_format">Published: %1$s</string>
+    <string name="publisher_format">Publisher:%1$s</string>
+    <string name="author_format">Author:%1$s</string>
+    <string name="rank_format">Rank: %1$s</string>
+    <string name="buy">Buy</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="no_connection_message">No connection or something else</string>
+    <string name="no_cached_data_message">No cached data or something else</string>
+    <string name="something_went_wrong">Something went wrong</string>
+</resources>

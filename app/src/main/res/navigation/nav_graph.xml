@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categoriesFragment">
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.polytechtest.ui.fragments.categories.CategoriesFragment"
+        android:label="CategoriesFragment" >
+        <action
+            android:id="@+id/action_categoriesFragment_to_fragmentBookList"
+            app:destination="@id/fragmentBookList" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentBookList"
+        android:name="com.polytechtest.ui.fragments.book_list.FragmentBookList"
+        android:label="FragmentBookList" >
+        <argument
+            android:name="encodedName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_fragmentBookList_to_dialogBuy"
+            app:destination="@id/dialogBuy" />
+    </fragment>
+    <dialog
+        android:id="@+id/dialogBuy"
+        android:name="com.polytechtest.ui.dialogs.buy.DialogBuy"
+        android:label="DialogBuy" >
+        <argument
+            android:name="link"
+            app:argType="string" />
+    </dialog>
+</navigation>
