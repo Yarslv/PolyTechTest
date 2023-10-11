@@ -9,7 +9,7 @@ import org.koin.dsl.module
 val dataBaseModule = module {
     single(named("dataBase")) {
         Room.databaseBuilder(get(), BookDataBase::class.java, Constants.DATABASE_NAME)
-            .fallbackToDestructiveMigration()
+//            .fallbackToDestructiveMigration()
             .build()
     }
 
